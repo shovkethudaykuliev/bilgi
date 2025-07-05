@@ -68,7 +68,6 @@
 .banner__second-text{
     width: 50%;
    margin: 0 300px;
-    border:2px solid black;
 }
 .banner__second-text h2{
     font-size: 30px;
@@ -111,4 +110,33 @@
   position: absolute;
   top: -5px;
   right: -5px;
+}
+.footer {
+  background-color: #f44336;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-item {
+  max-width: 250px;
+  padding: 15px;
+  font-size: 15px;
 }
