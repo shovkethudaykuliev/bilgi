@@ -73,6 +73,7 @@
     font-size: 30px;
    margin:0 25%;
 }
+
 .banner__second-text p{
     font-size: 17px;
     margin:0 15px;
@@ -95,17 +96,55 @@
   display: inline-block;
 }
 
-.icon-container img {
-  width: 80px;
-  height: 80px;
+.top-circle-1 {
+  width: 25px;
+  height: 25px;
+  background-color: #f17d7de5;
   border-radius: 50%;
-  background-color: #f0f0f0;
+  position: absolute;
+  top: -5px;
+  right: -5px;
 }
-
-.top-circle {
+.top-circle-2 {
+  width: 25px;
+  height: 25px;
+  background-color: rgba(235, 17, 235, 0.788);
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+.top-circle-3 {
+  width: 25px;
+  height: 25px;
+  background-color:#6bd0ff;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+.top-circle-4 {
+  width: 25px;
+  height: 25px;
+  background-color: #6bd0ff;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+.top-circle-5 {
   width: 25px;
   height: 25px;
   background-color: #ff6b6b;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+.top-circle-6 {
+  width: 25px;
+  height: 25px;
+  background-color: #ffb36bc0;
   border-radius: 50%;
   position: absolute;
   top: -5px;
