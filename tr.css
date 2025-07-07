@@ -26,6 +26,7 @@
 
 }
 .btn{
+  width:100px;
     background-color: red;
     border: none;
     border-radius:5px;
@@ -155,6 +156,7 @@
   color: white;
   text-align: center;
   padding: 40px 20px;
+  padding-bottom: 50px;
 }
 
 .footer h2 {
@@ -178,4 +180,26 @@
   max-width: 250px;
   padding: 15px;
   font-size: 15px;
+}
+.header{
+  padding:70px 60px;
+  width:100%;
+  display: flex;
+  gap:10%;
+  
+}
+.header__text{
+  width: 45%;
+}
+.header__text h2{
+font-size: 4rem;
+}
+.header__text p{
+  font-size:1.7rem;
+  padding:40px 0;
+
+}
+.header__img{
+width:45%;
+border-radius: 8px;
 }
